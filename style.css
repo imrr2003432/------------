@@ -55,7 +55,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(video/img.png) no-repeat;
+    background-color: #0228ff;
     background-size: cover;
     background-attachment: fixed;
 
