@@ -188,16 +188,18 @@ section {
     color: #ffffff;
 }
 
-.imgtcher{
-     width: 300px;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fff;
-      margin: 20px auto;
-      transition: transform 0.3s ease;
+.imgtcher {
+    width: 100%;            /* العرض يملأ الحاوية */
+    max-width: 300px;       /* لكن لا يزيد عن 300 بكسل */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    margin: 20px auto;      /* مركزي الصندوق أفقياً */
+    transition: transform 0.3s ease;
+    box-sizing: border-box; /* يشمل الحواف داخل العرض */
 }
 
 
