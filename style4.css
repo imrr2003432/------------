@@ -201,6 +201,31 @@ section {
 }
 
 
+.lecture-item {
+  position: relative;
+  padding: 1rem 1rem 1rem 2.5rem;
+  background: var(--bg-color);
+  border-radius: 8px;
+  border-right: 3px solid var(--primary);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.lecture-item:hover {
+  background: #4a1a1a;
+  transform: translateX(10px);
+}
+
+.classes-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+
+
+
+
+
 
 @media (max-width:1023px){
     header{
